@@ -1,16 +1,15 @@
 package com.examples.poker.core.model;
 
 public enum HandCombinations {
-    ROYAL_FLUSH(10),
-    STRAIGHT_FLUSH(9),
-    FOUR_OF_A_KIND(8),
-    FULL_HOUSE(7),
-    FLUSH(6),
-    STRAIGHT(5),
-    THREE_OF_A_KIND(4),
-    TWO_PAIRS(3),
-    ONE_PAIR(2),
-    HIGH_HAND(1);
+    STRAIGHT_FLUSH(800),
+    FOUR_OF_A_KIND(700),
+    FULL_HOUSE(600),
+    FLUSH(500),
+    STRAIGHT(400),
+    THREE_OF_A_KIND(300),
+    TWO_PAIRS(200),
+    ONE_PAIR(100),
+    HIGH_HAND(0);
 
     private int weight;
 
